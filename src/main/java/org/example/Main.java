@@ -17,6 +17,8 @@ public class Main {
             for (int j = 0; j < numeros.size() - 1 - i; j++) {
                 if (numeros.get(j) > numeros.get(j + 1)) {
 
+                    System.out.println(j);
+
                     int temp = numeros.get(j);
                     numeros.set(j, numeros.get(j + 1));
                     numeros.set(j + 1, temp);

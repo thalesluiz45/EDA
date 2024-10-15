@@ -13,9 +13,9 @@ public class OrdenarLista {
 
         System.out.println(numeros);
 
-        // Ordenar a lista usando Bubble Sort
         for (int i = 0; i < numeros.size() - 1; i++) {
             for (int j = 0; j < numeros.size() - 1 - i; j++) {
+                System.out.println(j);
                 if (numeros.get(j) > numeros.get(j + 1)) {
 
                     int temp = numeros.get(j);
