@@ -23,7 +23,6 @@ public class Iteracao {
             System.out.println("O número está na lista.");
         }else{
             System.out.println("O número não está na lista.");
-
         }
     }
 }
