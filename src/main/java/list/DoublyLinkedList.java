@@ -1,11 +1,11 @@
 package list;
 
-public class LinkedList<T> {
+public class DoublyLinkedList<T> {
     private Node<T> first;
     private Node<T> last;
     private int length;
 
-    public LinkedList() {
+    public DoublyLinkedList() {
         this.length = 0;
     }
 
@@ -111,6 +111,7 @@ public class LinkedList<T> {
         return current;
     }
 
+
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.add("A");
@@ -133,4 +134,3 @@ public class LinkedList<T> {
 
 
 }
-

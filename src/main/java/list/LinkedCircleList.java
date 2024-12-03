@@ -45,7 +45,7 @@ public class LinkedCircleList<T> {
             first = newNode;
             last = newNode;
         } else {
-            newNode.setNext(top); // -> E -> D
+            newNode.setNext(top);
             newNode.setPrevious(last);
             last.setNext(newNode);
             last = newNode;
