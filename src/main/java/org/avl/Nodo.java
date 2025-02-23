@@ -8,6 +8,6 @@ public class Nodo {
 
     Nodo(int chave) {
         this.chave = chave;
-        this.altura = 1; // Um novo nó é sempre adicionado como folha, então altura = 1
+        this.altura = 1;
     }
 }

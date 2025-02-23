@@ -31,11 +31,9 @@ public class AVLTree {
         Nodo x = y.direita;
         Nodo T2 = x.esquerda;
 
-        // Realiza a rotação
         x.esquerda = y;
         y.direita = T2;
 
-        // Atualiza alturas
         atualizarAltura(y);
         atualizarAltura(x);
 
@@ -47,11 +45,9 @@ public class AVLTree {
         Nodo y = x.esquerda;
         Nodo T2 = y.direita;
 
-        // Realiza a rotação
         y.direita = x;
         x.esquerda = T2;
 
-        // Atualiza alturas
         atualizarAltura(x);
         atualizarAltura(y);
 
